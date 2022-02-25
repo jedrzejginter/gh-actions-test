@@ -1,7 +1,0 @@
-name: 'Do something'
-runs:
-  using: 'composite'
-  steps:
-    - name: Cancel outdated workflows
-      run: echo 1
-      shell: bash

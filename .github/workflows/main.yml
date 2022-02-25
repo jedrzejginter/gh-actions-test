@@ -10,6 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      # Will this work or not?
       - name: Run action
-        uses: jedrzejginter/gh-actions-test/some/dir@main
+        uses: jedrzejginter/gh-actions-test/my-github-action@main

@@ -1,0 +1,6 @@
+name: dummy-action
+runs:
+  using: 'composite'
+  steps:
+    - run: echo 123
+      shell: bash
