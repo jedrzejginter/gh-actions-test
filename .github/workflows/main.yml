@@ -1,0 +1,15 @@
+name: main
+
+on:
+  push:
+
+jobs:
+  heroku-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Will this work or not?
+      - name: Run action
+        uses: jedrzejginter/gh-actions-test/some/dir@main
